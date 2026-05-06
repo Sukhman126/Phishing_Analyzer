@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing Website Detection</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1><i class="fas fa-user-shield"></i> Phishing Detector</h1>
+        <p>Analyze URLs for potential security threats</p>
+        
+        <form method="POST">
+            <input type="text" name="url_input" placeholder="Enter URL (e.g., https://example.com)" required>
+            <button type="submit">ANALYZE URL</button>
+        </form>
+
+        {% if result %}
+            <div class="result-box">
+                <h2>Analysis: <span class="{{ result }}">{{ result }}</span></h2>
+                <p>Security Risk Score: <strong>{{ score }}</strong></p>
+                
+                {% if result != 'Safe' %}
+                    <p style="color: #ef4444; font-size: 0.85rem; margin-top: 10px;">
+                        <i class="fas fa-triangle-exclamation"></i> Warning: Suspicious patterns detected!
+                    </p>
+                {% endif %}
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
