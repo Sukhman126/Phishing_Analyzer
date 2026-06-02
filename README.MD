@@ -25,20 +25,21 @@ The system evaluates a URL through the following security checks:
 ---
 
 ## 4. How to Run
-## 📑 Quick Navigation
+1. Open the terminal in VS Code.
 
-- [Open the Project](#step-1-open-the-project)
-- [Activate Virtual Environment](#step-2-activate-virtual-environment)
-- [Install Dependencies](#step-3-install-dependencies)
-- [Run the Application](#step-4-run-the-application)
-- [Access the Web Interface](#step-5-access-the-web-interface)
+2. Run the following commands in the terminal to set up and run the project:
+   
+   # Activate the virtual environment
+venv\Scripts\activate
 
-### Step 1: Open the Project
+# Install Flask
+pip install flask
 
-### Step 2: Activate Virtual Environment
+# Run the application
+python app.py
 
-### Step 3: Install Dependencies
+3. Open your web browser and go to:
+   
+   http://127.0.0.1:5000
 
-### Step 4: Run the Application
-
-### Step 5: Access the Web Interface
+4. Enter a website URL and click Analyze URL to check whether the URL is safe or potentially suspicious.
