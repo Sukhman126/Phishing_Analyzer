@@ -25,34 +25,20 @@ The system evaluates a URL through the following security checks:
 ---
 
 ## 4. How to Run
-📑 Quick Navigation
+## 📑 Quick Navigation
 
-- "🚀 Open the Project" (#-step-1-open-the-project)
-- "⚙️ Activate Virtual Environment" (#️-step-2-activate-virtual-environment)
-- "📦 Install Dependencies" (#-step-3-install-dependencies)
-- "▶️ Run the Application" (#️-step-4-run-the-application)
-- "🌐 Access the Web Interface" (#-step-5-access-the-web-interface)
+- [Open the Project](#step-1-open-the-project)
+- [Activate Virtual Environment](#step-2-activate-virtual-environment)
+- [Install Dependencies](#step-3-install-dependencies)
+- [Run the Application](#step-4-run-the-application)
+- [Access the Web Interface](#step-5-access-the-web-interface)
 
-🚀 Step 1: Open the Project
+### Step 1: Open the Project
 
-Open the project folder in Visual Studio Code and launch the integrated terminal.
+### Step 2: Activate Virtual Environment
 
-⚙️ Step 2: Activate Virtual Environment
+### Step 3: Install Dependencies
 
-venv\Scripts\activate
+### Step 4: Run the Application
 
-📦 Step 3: Install Dependencies
-
-pip install flask
-
-▶️ Step 4: Run the Application
-
-python app.py
-
-🌐 Step 5: Access the Web Interface
-
-Open your browser and navigate to:
-
-http://127.0.0.1:5000
-
-The Phishing Website Detection & URL Safety Analyzer is now ready to analyze URLs and identify potentially suspicious websites.
+### Step 5: Access the Web Interface
