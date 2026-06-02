@@ -24,7 +24,18 @@ The system evaluates a URL through the following security checks:
 
 ---
 
-## 4. How to Run
+## 4. Features
+
+- 🔒 HTTPS Protocol Detection
+- 📏 URL Length Analysis
+- 🌐 IP Address Detection in URLs
+- 🚨 Suspicious Keyword Detection
+- ⚡ Instant URL Classification
+- 🎨 Simple and User-Friendly Interface
+
+---
+
+## 5. How to Run
 1. Open the terminal in VS Code.
 2. Run the following commands in the terminal to setup and run the project:
    ```bash
