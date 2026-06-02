@@ -35,6 +35,19 @@ The system evaluates a URL through the following security checks:
 
 ---
 
+## 5. Screenshots
+
+### Home Page
+![Home Page](phishing_analyzer/screenshots/home.png)
+
+### Safe URL Detection
+![Safe URL Detection](phishing_analyzer/screenshots/safe_result.png)
+
+### Suspicious URL Detection
+![Suspicious URL Detection](phishing_analyzer/screenshots/suspicious_result.png)
+
+---
+
 ## 5. How to Run
 1. Open the terminal in VS Code.
 2. Run the following commands in the terminal to setup and run the project:
