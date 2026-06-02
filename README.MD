@@ -25,10 +25,34 @@ The system evaluates a URL through the following security checks:
 ---
 
 ## 4. How to Run
-1. Open the terminal in VS Code.
-2. Activate the virtual environment:
-```bash
-   venv\Scripts\activate
-3. Install Flask: pip install flask
-4. Run the application: python app.py
-5. Open your browser and go to: http://127.0.0.1:5000
+📑 Quick Navigation
+
+- "🚀 Open the Project" (#-step-1-open-the-project)
+- "⚙️ Activate Virtual Environment" (#️-step-2-activate-virtual-environment)
+- "📦 Install Dependencies" (#-step-3-install-dependencies)
+- "▶️ Run the Application" (#️-step-4-run-the-application)
+- "🌐 Access the Web Interface" (#-step-5-access-the-web-interface)
+
+🚀 Step 1: Open the Project
+
+Open the project folder in Visual Studio Code and launch the integrated terminal.
+
+⚙️ Step 2: Activate Virtual Environment
+
+venv\Scripts\activate
+
+📦 Step 3: Install Dependencies
+
+pip install flask
+
+▶️ Step 4: Run the Application
+
+python app.py
+
+🌐 Step 5: Access the Web Interface
+
+Open your browser and navigate to:
+
+http://127.0.0.1:5000
+
+The Phishing Website Detection & URL Safety Analyzer is now ready to analyze URLs and identify potentially suspicious websites.
