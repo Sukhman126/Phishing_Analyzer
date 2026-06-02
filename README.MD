@@ -37,3 +37,4 @@ The system evaluates a URL through the following security checks:
    # Run the application
    python app.py
 3. Open your web browser and go to: http://127.0.0.1:5000
+4. Enter a website URL and click *Analyze URL* to check whether the URL is safe or suspicious.
