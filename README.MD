@@ -37,12 +37,19 @@ The system evaluates a URL through the following security checks:
 
 ## 5. Screenshots
 
-### Home Page
-![Home Page](screenshots/home.png)
+<p align="center">
+  <img src="screenshots/home.png" width="600" alt="Home Page">
+</p>
+
 ### Safe URL Detection
-![Safe URL Detection](screenshots/safe_result.png)
+<p align="center">
+  <img src="screenshots/safe_result.png" width="600" alt="Safe URL Detection">
+</p>
+
 ### Suspicious URL Detection
-![Suspicious URL Detection](screenshots/suspicious_result.png)
+<p align="center">
+  <img src="screenshots/suspicious_result.png" width="600" alt="Suspicious URL Detection">
+</p>
 
 ---
 
