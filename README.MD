@@ -38,13 +38,11 @@ The system evaluates a URL through the following security checks:
 ## 5. Screenshots
 
 ### Home Page
-![Home Page](phishing_analyzer/screenshots/home.png)
-
+![Home Page](screenshots/home.png)
 ### Safe URL Detection
-![Safe URL Detection](phishing_analyzer/screenshots/safe_result.png)
-
+![Safe URL Detection](screenshots/safe_result.png)
 ### Suspicious URL Detection
-![Suspicious URL Detection](phishing_analyzer/screenshots/suspicious_result.png)
+![Suspicious URL Detection](screenshots/suspicious_result.png)
 
 ---
 
